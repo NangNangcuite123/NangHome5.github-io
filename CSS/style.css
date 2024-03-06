@@ -1,0 +1,370 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #222121;
+}
+header .navbar {
+  width: 100%;
+  height: 100%;
+  padding: 0px 70px;
+  display: flex;
+  justify-content: space-between;
+}
+header .nav-brand {
+  width: 250px;
+  height: 100%;
+  /* background-color:blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .nav-brand h1 {
+  font-size: 35px;
+  color: white;
+}
+header .nav-brand b {
+  font-size: 30px;
+  color: yellow;
+}
+header .nav-item {
+  width: auto;
+  height: 100%;
+  /* background-color:red; */
+}
+.nav-item .list {
+  height: 100%;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.nav-item .list .item-list {
+  width: auto;
+  height: 70px;
+  /* background-color:pink; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 2px solid teal;
+}
+.nav-item .list .item-list a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.nav-item .list .item-list a:hover {
+  color: teal;
+}
+.container {
+  width: 100%;
+  height: 650px;
+  background-color: blueviolet;
+}
+.container .big-sec {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.container .big-sec .section {
+  width: 50%;
+  height: 100%;
+  background-color: bisque;
+}
+.big-sec .section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container .big-sec .section:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section .text-sec {
+  width: 100%;
+  height: 400px;
+  /* background-color: aqua; */
+  padding: 20px 50px;
+}
+.section .text-sec h1 {
+  font-size: 50px;
+  color: black;
+}
+.section .text-sec p {
+  font-size: 20px;
+  color: black;
+  margin-top: 35px;
+}
+.text-sec .lern {
+  width: 200px;
+  height: 50px;
+  /* background-color:green; */
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 8px;
+  border: 2px solid black;
+}
+.text-sec .lern:hover {
+  background-color: white;
+}
+.section-2 {
+  width: 100%;
+  height: 600px;
+  background-color: #222121;
+  padding-top: 70px;
+}
+.section-2 .center {
+  width: 1200px;
+  height: 500px;
+  /* background-color:aqua; */
+  margin: auto;
+  display: flex;
+}
+.section-2 .center .left {
+  width: 600px;
+  height: 100%;
+  /* background-color:red; */
+}
+.section-2 .center .left h1 {
+  font-size: 45px;
+  color: white;
+}
+.section-2 .center .left p {
+  font-size: 20px;
+  color: white;
+  margin-top: 20px;
+}
+.center .left .lern-1 {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 8px;
+  border: 2px solid black;
+}
+.center .left .lern-1:hover {
+  background-color: bisque;
+}
+.section-2 .center .right {
+  width: 600px;
+  height: 100%;
+  /* background-color:#00ff73; */
+  padding: 0px 20px;
+}
+.section-2 .center .right p {
+  font-size: 17px;
+  color: white;
+  margin-top: 20px;
+}
+.center .right .text-a {
+  width: 450px;
+  height: auto;
+  /* background-color:red; */
+  margin: 50px auto;
+}
+.center .right a {
+  display: inline-block;
+  color: white;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.center .right .text-a a:visited {
+  color: blue;
+}
+.center .right .text-a a:hover {
+  color: teal;
+}
+.center .right .text-a a:active {
+  color: red;
+}
+.center .right .text-a .left-side {
+  margin-left: 57px;
+}
+.center .right .text-a .left-side1 {
+  margin-left: 29px;
+}
+.container-3 {
+  width: 100%;
+  height: auto;
+  background-color: #aca9a9;
+  padding-top: 30px;
+}
+.container-3 .text-gall {
+  width: 500px;
+  height: auto;
+  border-bottom: 3px solid black;
+  margin: auto;
+}
+.container-3 .text-gall h1 {
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  margin: 20px 0px;
+}
+.container-3 .text-gall1 {
+  width: 500px;
+  height: auto;
+  margin: 20px auto;
+}
+.container-3 .text-gall1 p {
+  color: black;
+  font-size: 17px;
+}
+.section-3 {
+  width: 1200px;
+  height: 670px;
+  /* background-color:red; */
+  margin: auto;
+}
+.section-3 .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.section-3 .col {
+  width: 292.5px;
+  height: 300px;
+  background-color: teal;
+  background-image: url(https://0006-css-homework-06-link.netlify.app/img/1.jpeg);
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: 1s;
+}
+.section-3 .col:hover {
+  background-size: 110% 110%;
+}
+.section-3 .col:nth-child(2) {
+  width: 292.5px;
+  height: 300px;
+  background-color: teal;
+  background-image: url(https://0006-css-homework-06-link.netlify.app/img/2.jpeg);
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: 1s;
+}
+.section-3 .col:nth-child(2):hover {
+  background-size: 110% 110%;
+}
+.section-3 .col:nth-child(3) {
+  width: 292.5px;
+  height: 300px;
+  background-color: teal;
+  background-image: url(https://0006-css-homework-06-link.netlify.app/img/3.jpeg);
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: 1s;
+}
+.section-3 .col:nth-child(3):hover {
+  background-size: 110% 110%;
+}
+.section-3 .col:nth-child(4) {
+  width: 292.5px;
+  height: 300px;
+  background-color: teal;
+  background-image: url(https://0006-css-homework-06-link.netlify.app/img/5.jpeg);
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: 1s;
+}
+.section-3 .col:nth-child(4):hover {
+  background-size: 110% 110%;
+}
+.section-3 .col:nth-child(5) {
+  width: 292.5px;
+  height: 300px;
+  background-color: teal;
+  background-image: url(https://0006-css-homework-06-link.netlify.app/img/6.jpeg);
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: 1s;
+}
+.section-3 .col:nth-child(5):hover {
+  background-size: 110% 110%;
+}
+.section-3 .col:nth-child(6) {
+  width: 292.5px;
+  height: 300px;
+  background-color: teal;
+  background-image: url(https://0006-css-homework-06-link.netlify.app/img/7.jpeg);
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: 1s;
+}
+.section-3 .col:nth-child(6):hover {
+  background-size: 110% 110%;
+}
+.section-3 .col:nth-child(6) {
+  width: 292.5px;
+  height: 300px;
+  background-color: teal;
+  background-image: url(https://0006-css-homework-06-link.netlify.app/img/8.jpeg);
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: 1s;
+}
+.section-3 .col:nth-child(7) {
+  width: 292.5px;
+  height: 300px;
+  background-color: teal;
+  background-image: url(https://0006-css-homework-06-link.netlify.app/img/4.jpeg);
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: 1s;
+}
+.section-3 .col:nth-child(7):hover {
+  background-size: 110% 110%;
+}
+.section-3 .col:nth-child(8) {
+  width: 292.5px;
+  height: 300px;
+  background-color: teal;
+  background-image: url(https://0006-css-homework-06-link.netlify.app/img/7.jpeg);
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: 1s;
+}
+.section-3 .col:nth-child(8):hover {
+  background-size: 110% 110%;
+}
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: #222121;
+  padding-top: 80px;
+}
+footer P {
+  color: white;
+  text-align: center;
+}
